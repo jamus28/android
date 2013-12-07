@@ -30,6 +30,13 @@
   <project path="build" name="CarbonDev/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project name="TheMuppets/proprietary_vendor_samsung.git" path="vendor/samsung" remote="cm" revision="cm-11.0" />
+  <project path="device/samsung/msm8930-common" name="CyanogenMod/android_device_samsung_msm8930-common" remote="cm" revision="cm-11.0" />
+  <project path="device/samsung/serrano-common" name="CyanogenMod/android_device_samsung_serrano-common" remote="cm" revision="cm-11.0" />
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="cm" revision="cm-11.0" />
+  <project path="kernel/samsung/msm8930-common" name="CyanogenMod/android_kernel_samsung_msm8930-common" remote="cm" revision="cm-11.0" />
+  <project path="device/samsung/serranoltexx" name="jamus28/carbon_device_samsung_serranoltexx" remote="gh" revision="cm-11.0" />
+  <project path="device/samsung/serrano3gxx" name="jamus28/carbon_device_samsung_serrano3gxx" remote="gh" revision="cm-11.0" />
   <project path="android" name="CarbonDev/android" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.1_r1" />
   <project path="art" name="CarbonDev/android_art" />
